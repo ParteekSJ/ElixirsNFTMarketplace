@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#202127] text-white;
+  }
+}
+
+@layer components {
+  .hoverAnimation {
+    @apply hover:bg-[#d9d9d9] hover:bg-opacity-10 rounded-full cursor-pointer h-[52px] w-[52px] xl:w-auto xl:h-auto xl:py-3 xl:px-4 transition-all duration-200 ease-out;
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "contracts": {
+    "Marketplace": "35f2634e9c966bc425e3eb059cb02b992102e829",
+    "NFT": "c71b1134a3de976125bd160fae48f5f01d65a9d1",
+    "OpenZeppelin/openzeppelin-contracts@4.4.1/Counters": "1ce946f6a4eaa185320328620ccf999b9e86db7c",
+    "OpenZeppelin/openzeppelin-contracts@4.4.1/ERC721": "6766c70b57094d2354e659089b823c8d4950801d",
+    "OpenZeppelin/openzeppelin-contracts@4.4.1/Strings": "1ce946f6a4eaa185320328620ccf999b9e86db7c"
+  },
+  "tests": {
+    "tests/test_create_items.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".....",
+      "sha1": "7c1604fe1d490d45b2430cae40cff5fa1e119c34",
+      "txhash": [
+        "0aceb0adf423f9eb7bd8e6ee590034fd08bfb28c"
+      ]
+    },
+    "tests/test_deployment.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "...",
+      "sha1": "5e9364406b157bacdc827e61e86f9660d407b611",
+      "txhash": []
+    },
+    "tests/test_purchase_items.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".......",
+      "sha1": "763e96fa73b08957e6e187e1afa9bc7db2fbabe3",
+      "txhash": [
+        "1346fea7ae4f1d6c8663dd6caddf01e8bd348757",
+        "6ff55bb131dc040a4c5d19e9ad66993c7bb5f9a9",
+        "ef9ececcdbc2f5bee9a7e41b51f043ceb9729931"
+      ]
+    }
+  },
+  "tx": {
+    "0aceb0adf423f9eb7bd8e6ee590034fd08bfb28c": {},
+    "1346fea7ae4f1d6c8663dd6caddf01e8bd348757": {},
+    "6ff55bb131dc040a4c5d19e9ad66993c7bb5f9a9": {},
+    "ef9ececcdbc2f5bee9a7e41b51f043ceb9729931": {}
+  }
+}
